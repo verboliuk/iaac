@@ -8,7 +8,7 @@ resource "aws_db_instance" "epam-rds" {
   skip_final_snapshot  = true
   publicly_accessible  = true
   username             = "epam"
-  password             = "epam123"
+  password             = "epam1234"
   parameter_group_name = "default.mysql5.7"
 
   tags = {
